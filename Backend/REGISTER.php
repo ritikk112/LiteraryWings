@@ -105,10 +105,10 @@ $conn->close();
 
         <div class="box">
           <h3 class="share">share</h3>
-          <a href="https://facebook.com" target = "_blank">facebook</a>
-          <a href="https://twitter.com" target = "_blank">twitter</a>
-          <a href="https://instagram.com" target = "_blank">instagram</a>
-          <a href="https://github.com" target = "_blank">github</a>
+          <a href="https://www.facebook.com/lytdl/" target = "_blank">facebook</a>
+          <a href="https://twitter.com/official_ldl" target = "_blank">twitter</a>
+          <a href="https://www.instagram.com/official_ldl/?hl=en" target = "_blank">instagram</a>
+          <a href="https://github.com/ritikk112/LiteraryWings" target = "_blank">github</a>
         </div>
 
         <div class="box">
