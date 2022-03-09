@@ -1,0 +1,113 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Literary Wings | Welcome</title>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    </head>
+    <body>
+      <section class = "login2">
+        <header style = " background-color: rgba(0, 0, 0, 0.8);">
+            <a href="#" class = "logo" style = "text-decoration: none;"><i class="fas fa-feather-alt"></i>Literary Wings</a>
+            <nav class="navbar">
+              <ul>
+                <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+                <li><a href="index.html#about" style="text-decoration: none;">About Us</a></li>
+                <li><a href="index.html#initiatives" style="text-decoration: none;">Initiatives</a></li>
+                <li><a href="index.html#gallery" style="text-decoration: none;">Gallery</a></li>
+                <li><a href="index.html#contact" style="text-decoration: none;">Contact Us</a></li>
+                <li><a href = "login.html" style="text-decoration: none;">Log In</a></li>
+              </ul>
+            </nav>
+            <div class="fas fa-bars"></div>
+        </header>
+        <div class = "boxx" style = "width: 400px;">
+          <h1 class = "heading">Login</h1>
+          <form action = "http://localhost/TEMP/LiteraryWings/Backend/login.php" method = "post">
+          <p style = "font-size: 20px;">Username:</p><input type = "text" id = "username" name = "username" placeholder="Enter your username" style = "padding:10px; width: 400px; box-shadow: 0.4px .1px .2px #000; width: 350px; border-width: 0.02px; font-size:15px";>
+          <p style = "font-size: 20px;">Password:</p><input type = "text" id = "password"name = "password" placeholder="Enter your password" style = "padding:10px; width: 400px; box-shadow: 0.4px .1px .02px #000; flex: auto; width: 350px; border-width: 0.002px; font-size:15px">
+          <!-- <br><a href = "#" style = "text-decoration: none;">Forgot Password?</a> -->
+          <br><button class = "btn" name = "Login" value = "submit" id = "submit" style = "margin-top: 40px; margin-left: 120px; margin-bottom: 50px; padding-top:1px;">Login</button>
+          </form>
+        </div>
+        <div class = "boxx" style = "margin-left:150px; margin-right:150px;">OR</div>
+        <div class = "boxx" style = "width: 400px;">
+          <h1 class = "heading" style = "font-size: 18px; border-width: auto;">Create a new account</h1>
+          <form action = "http://localhost/TEMP/LiteraryWings/Backend/register.php" method = "post">
+          <p style = "font-size: 20px;">Username:</p><input type = "text" id = "cname" name = "cname" placeholder="Enter your username" style = "padding:10px; width: 400px; box-shadow: 0.4px .1px .02px #000; flex: auto; width: 350px; border-width: 0.002px; font-size:15px">
+          <p style = "font-size: 20px;">Password:</p><input type = "text" id = "cpwd" name = "cpwd" placeholder="Enter your password" style = "padding:10px; width: 400px; box-shadow: 0.4px .1px .02px #000; flex: auto; width: 350px; border-width: 0.002px; font-size:15px">
+          <!-- <br><a href = "#" style = "text-decoration: none;">Forgot Password?</a> -->
+          <p style = "font-size: 20px;">Confirm Password:</p><input type = "text" id = "ccpwd" name = "ccpwd" placeholder="Enter your Password" style = "padding:10px; width: 400px; box-shadow: 0.4px .1px .02px #000; flex: auto; width: 350px; border-width: 0.002px; font-size:15px">
+          <br><button class = "btn" name = "Register" value = "submit" id = "submit" style = "margin-top: 40px; margin-left: 120px; margin-bottom: 50px; padding-top:1px;">Register Now!</button>
+          </form>
+        </div>
+      </section>
+      <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="logo" target = "_blank" style="text-decoration: none;" ><i class="fas fa-feather-alt"></i>Literary Wings</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            possimus impedit voluptate fuga id sapiente perspiciatis amet eos
+            esse iure.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3 class="share">share</h3>
+          <a href="https://facebook.com" target = "_blank">facebook</a>
+          <a href="https://twitter.com" target = "_blank">twitter</a>
+          <a href="https://instagram.com" target = "_blank">instagram</a>
+          <a href="https://github.com" target = "_blank">github</a>
+        </div>
+
+        <div class="box">
+          <h3 class="letter">suggestion</h3>
+          <form action="">
+            <input type="email" placeholder="Suggestion" />
+            <button type="submit" class="fas fa-paper-plane"></button>
+          </form>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        created by <span>Literary Wings</span> | all rights reserved<i class="far fa-registered" style = "size: 2px;"></i>
+      </h1>
+    </section>
+
+    <!-- footer section ends -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

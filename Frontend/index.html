@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="C:/Users/ritik/Desktop/Frontend (1)/Frontend/lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../dist/css/lightbox.min.css">
+    <style>
+        .gallery {
+            margin: 10px 40px;
+        }
+          
+        .gallery img {
+            width: 200px;
+            height: 50px;
+            transition: 1s;
+            padding: 5px;
+        }
+          
+        .gallery img:hover {
+            filter: drop-shadow(4px 4px 6px gray);
+            transform: scale(1.1);
+        }
+      .text-typing{
+        white-space:nowrap;
+        overflow:hidden;
+        animation:typing 2s steps(22,end) forwards, blink 1s infinite;
+      }
+      @keyframes typing {
+        0% { width:0% }
+        100% { width:100% }
+      }
+      @keyframes blink {
+        0%,100% {
+        border-right:1px transparent;
+        }
+        50% {
+          border-right:1px transparent #222;
+        }
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Literary Wings | Welcome</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <header style = " background-color: rgba(0, 0, 0, 0.8);">
+      <a href="#" class="logo"><i class="fas fa-feather-alt"></i>Literary Wings</a>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" >Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#initiatives">Initiatives</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href = "login.html">Log In</a></li>
+        </ul>
+      </nav>
+
+      <div class="fas fa-bars"></div>
+    </header>
+
+    <!-- header section ends -->
+    
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h1 style = "padding: 100px 0px 10px 0px;" class = "text-typing">Wings of Knowledge and Power</h1>
+         <a href="#about"><button class="btn" style = "margin: 40px; color: turquoise;">Literary Wings</button></a>
+        <div class="flex-container">
+          <a href = "login.html">
+          <input type = "submit" value = "Login" class = "submit" style = "margin-top: 40px; margin-right: 30px;"/></a>
+          <a href = "donation.html">
+          <input type="submit" value= "Donate" class="submit" /></a>
+        </div>
+      </div>
+    </section>
+    <div class="insert_html"></div>
+    
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">
+        <i class="fas fa-quote-left"></i> about us
+        <i class="fas fa-quote-right"></i>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="img\img2.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Creating Successful Adults, One Child at a Time</h3>
+          <p>
+            Started by a group of determined, strongly minded, socially active and educated youths with the motive to provide quality education to the underprivileged children. Our motto “Ignite curious minds” clearly suggests our aim is to give the children an opportunity and a platform to utilise their full potential to learn and grow. 
+          <br><br>We have appointed volunteers in Delhi NCR who work to achieve the target of teaching 700-800 children daily. Apart from teaching, we, conduct activities and events on special occasions, distribute clothes and ration at regular intervals and provide financial support to the children. For more engagement of children, we also hold regular workshops and organise Sports fests.
+          </p>
+          <p>
+            
+          </p>
+          <a href="#"><button class="btn">learn more</button></a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-sun"></i>
+          <p>For a Brighter Future</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-home"></i>
+          <p>Homely Atmosphere</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-book"></i>
+          <p>Educating Young Ones</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-medal"></i>
+          <p>Self Dependance</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- initatives section starts  -->
+
+    <section class="service" id="initiatives">
+      <h1 class="heading">
+        <i class="fas fa-quote-left"></i> Our Initiatives
+        <i class="fas fa-quote-right"></i>
+      </h1>
+      <div class = "box-container">
+        <div class = "box" style = "background-color: transparent;">
+          <i class="fas fa-rocket"></i><br>
+          <h2 style = "font-size: large;">Mission</h2><br>
+          <p style = "color: black">To identify and educate children and make them self-dependent so that they can become dignified members of the society & have a common platform with others in terms of social equality and justice. To make children discover their hidden potentials so that they can be the change in society.</p>  
+        </div>
+        <div class = "box" style = "background-color: transparent;">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h2 style = "font-size: large;">Motive</h2><br>
+          <p style = "color: black">Our motto is <b>“Educate Empower Enlighten”</b>>. The members of the organization working together, providing the best fit education to these children. The seed of education will enable these children not just to grow but also bloom into responsible citizens of our country. This will empower them to stand on their own pillars in the society, to achieve success in life and rise as an enlightening star. The sincere motive of the organization is to bring overall development of the children.</p>  
+        </div>
+        <div class = "box" style = "background-color: transparent;">
+          <i class="fas fa-trophy"></i>
+          <h2 style = "font-size: large;">Acheivement</h2><br>
+          <p style = "color: black">Children who are admitted to school are performing extremely well in their academics. Till now we have admitted more than 40 children to schools. Our children are competing at National level. Few are winning State level sports championship in Boxing, Kho-Kho etc. whereas others are competing in prestigious academic institutions like JNV. Three of our kids cleared entrance in 2017 as well. Parallely, we are taking many initiatives for upbringing of our kids, you can find more on our <a href="#project" target = "_blank">project</a> page.</p>  
+        </div>
+      </div>
+    </section>
+
+    <!-- initiatives section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="project" id="gallery">
+      <h1 class="heading">
+        <h>
+        <i class="fas fa-bars"></i> Gallery <i class="fas fa-bars"></i></h>
+      </h1>
+      <div>
+        <div class="gallery" style="margin-left: 100px;">
+          <a href="img\img3.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img3.jpg" style = "height: auto;"></a>
+          <a href="img\img4.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img4.jpg" style = "height: auto;"></a>
+          <a href="img\img6.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img6.jpg" style = "height: auto;"></a>
+          <a href="img\img7.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img7.jpg" style = "height: auto;"></a>
+          <a href="img\img8.jfif" target = "_blank" data-lightbox="mygallery"><img src="img\img8.jfif" style = "height: auto;"></a>
+          <a href="img\img9.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img9.jpg" style = "height: auto;"></a>
+          <a href="img\img10.jpeg" target = "_blank" data-lightbox="mygallery"><img src="img\img10.jpeg" style = "height: auto;"></a>
+          <a href="img\img11.png" target = "_blank" data-lightbox="mygallery"><img src="img\img11.png" style = "height: auto;"></a>
+          <a href="img\img12.jfif" target = "_blank" data-lightbox="mygallery"><img src="img\img12.jfif" style = "height: auto;"></a>
+          <a href="img\img13.jfif" target = "_blank" data-lightbox="mygallery"><img src="img\img13.jfif" style = "height: auto;"></a>
+          <a href="img\img14.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img14.jpg" style = "height: auto;"></a>
+          <a href="img\img15.jfif" target = "_blank" data-lightbox="mygallery"><img src="img\img15.jfif" style = "height: auto;"></a>
+          <a href="img\img16.jfif" target = "_blank" data-lightbox="mygallery"><img src="img\img16.jfif" style = "height: auto;"></a>
+          <a href="img\img17.webp" target = "_blank" data-lightbox="mygallery"><img src="img\img17.webp" style = "height: auto;"></a>
+          <a href="img\img18.jfif" target = "_blank" data-lightbox="mygallery"><img src="img\img18.jfif" style = "height: auto;"></a>
+          <a href="img\img19.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img19.jpg" style = "height: auto;"></a>
+          <a href="img\img20.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img20.jpg" style = "height: auto;"></a>
+          <a href="img\img21.jpg" target = "_blank" data-lightbox="mygallery"><img src="img\img21.jpg" style = "height: auto;"></a>
+
+      </div>
+      </div>
+
+    </section>
+
+    <!-- project section ends -->
+
+    <!-- contact us section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <i class="fas fa-quote-left"></i> contact us
+        <i class="fas fa-quote-right"></i>
+      </h1>
+
+      <div class="video-container">
+        <video autoplay muted loop>
+          <source src="background video/Mill - 72825.mp4" type="video/webm" />
+        </video>
+      </div>
+
+      <div class="form-container">
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="first name" />
+            <input type="text" placeholder="last name" />
+          </div>
+
+          <div class="inputBox">
+            <input type="email" placeholder="enter your email" />
+            <input type="tel" placeholder="contact no." />
+          </div>
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="message ( optional )"
+          ></textarea>
+
+          <input type="submit" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- post section starts  -->
+
+    <section class="service" id="post">
+      <h1 class="heading">
+        <i class="fas fa-quote-left"></i> Our Recent Posts
+        <i class="fas fa-quote-right"></i>
+      </h1>
+      <div class = "box-container" style = "background-color: whitesmoke;">
+        <div class = "box" style = "background-color: transparent; width: 10px;">
+          <img src = "img\tempo.jpeg"><br>
+          <a href = "https://www.oxfamindia.org/blog/questions-healthcare-education-and-inequality-raised-parliament" target = "_blank" style="width: auto;">QUESTIONS ON HEALTHCARE, EDUCATION AND INEQUALITY RAISED IN PARLIAMENT</a><br>
+          <p style="width: auto; color: black;">Parliament of India comprising Lok Sabha and Rajya Sabha is the highest law-making body in the country where elected representatives convene to discuss issues of national importance. Amid...</p>  
+        </div>
+        <div class = "box" style = "background-color: whitesmoke">
+          <img src = "img\tempo2.jpg"><br>
+          <a href = "https://www.oxfamindia.org/blog/code-wages-lacks-clear-policy-outcome" target = "_blank" style = "width: auto;">CODE ON WAGES LACKS CLEAR POLICY OUTCOME</a><br>
+          <p style = "width: auto; color: black;">India is recognised to be one of the first developing countries to have introduced minimum wage policies through the Minimum Wages Act in 1948. Several more Bills and Acts contributed to ...</p>
+        </div>
+        <div class = "box-container" style = "background-color: whitesmoke;">
+          <div class = "box" style = "background-color: transparent;">
+            <img src = "img\tempo3.jpg"><br>
+            <a href = "https://www.oxfamindia.org/blog/caste-class-and-education" target = "_blank" style="width: auto;">CASTE, CLASS AND EDUCATION</a>
+            <p style = "width: auto; color: black;">Today, in 2019, India stands to be the seventh largest economy in the world, while also witnessing a steady increase in the gross enrolment ratio in both men and women portraying strength...</p>
+        </div>
+        <div class = "box" style = "background-color: transparent; width: 10px;">
+          <img src = "img\tempo4.jpg"><br>
+          <a href = "https://www.oxfamindia.org/blog/rural-healthcare-in-india" target = "_blank" style="width: auto;">RURAL HEALTHCARE IN INDIA — A BOON OR BANE?</a>
+          <p style = "width: auto; color: black;">Rural healthcare infrastructure in India is a three-tiered network comprising of a sub-center, primary health center (PHC) and community health center (CHC). Unfortunately, this setup is ...</p>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- post section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="logo" target = "_blank"><i class="fas fa-feather-alt"></i>Literary Wings</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            possimus impedit voluptate fuga id sapiente perspiciatis amet eos
+            esse iure.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3 class="share">share</h3>
+          <a href="https://facebook.com" target = "_blank">facebook</a>
+          <a href="https://twitter.com" target = "_blank">twitter</a>
+          <a href="https://instagram.com" target = "_blank">instagram</a>
+          <a href="https://github.com" target = "_blank">github</a>
+        </div>
+
+        <div class="box">
+          <h3 class="letter">suggestion</h3>
+          <form action="">
+            <input type="email" placeholder="Suggestion" />
+            <button type="submit" class="fas fa-paper-plane"></button>
+          </form>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        created by <span>Literary Wings</span> | all rights reserved<i class="far fa-registered" style = "size: 2px;"></i>
+      </h1>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="main.js"></script>
+    <!-- <script src="../dist/js/lightbox-plus-jquery.min.js"></script> -->
+    <script src="C:/Users/ritik/Desktop/Frontend (1)/Frontend/lightbox2-2.11.3/dist/css/lightbox.js"></script>
+    <script src="../dist/js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
